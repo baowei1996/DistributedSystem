@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Park>
+    <!-- 配置职介者的IP -->
+    <SERVERS>127.0.0.1:8010,localhost:8011</SERVERS>
+    <!-- 配置是否使用消息中枢 -->
+    <PROPSROW DESC="COMPUTEMODE">
+        <MODE DESC="DEFAULT">0</MODE>
+        <MODE>1</MODE>
+    </PROPSROW>
+    <!-- 工人能否为多个包工头提供服务 -->
+    <PROPSROW DESC="WORKER">
+        <SERVICE>false</SERVICE>
+    </PROPSROW>
+    <!-- 配置心跳检测的时间间隔和最大抢救时间 -->
+    <HEARTBEAT>3000</HEARTBEAT>
+    <MAXDELAY>0</MAXDELAY>
+</Park>
